@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+class Person
+{
+    public :
+     string name;
+     int id;
+     void display()
+     {
+         cout<< name << "  "<< id <<endl;
+     }
+};
+int main()
+{
+    Person Alim;
+    Alim.name = APurba Debnath;
+    Alim.id = 19-41512-3;
+    Alim.display();
+}
